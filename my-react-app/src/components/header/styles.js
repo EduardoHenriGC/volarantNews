@@ -7,7 +7,7 @@ export const Header = styled.header`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: red;
+    background-color: yellow;
     height: 91px;
     text-align: center;
   }
