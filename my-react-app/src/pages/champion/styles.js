@@ -13,21 +13,17 @@ export const Champ = styled.div`
     display: flex;
     flex-direction: column;
   }
-  h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 34px;
-    margin-top: 100px;
-  }
+
   h2 {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     margin-top: 60px;
     padding-bottom: 20px;
+    color: #d14334;
   }
   h4 {
-    color: red;
+    color: #00755c;
     text-align: center;
     text-transform: uppercase;
     margin-top: 40px;
@@ -71,6 +67,7 @@ export const Champ = styled.div`
   }
   .titulo-grupo {
     text-align: center;
+    color: #00755c;
   }
   @media (min-width: 0) and (max-width: 600px) {
     .nfl {

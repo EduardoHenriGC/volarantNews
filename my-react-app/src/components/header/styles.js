@@ -7,7 +7,8 @@ export const Header = styled.header`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: yellow;
+    background-color: #1c2130;
+
     height: 91px;
     text-align: center;
   }
@@ -70,7 +71,7 @@ export const Header = styled.header`
     line-height: 40px;
     position: relative;
     display: block;
-    color: #000;
+    color: #fff;
     margin: 27px 17px;
     text-decoration: none;
     cursor: pointer;
@@ -126,6 +127,7 @@ export const Header = styled.header`
   .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
+
     top: 13px;
   }
   .sub__menus {
@@ -138,6 +140,8 @@ export const Header = styled.header`
     padding: 2px 0 0 0;
     z-index: 1000;
     box-shadow: 0 10px 12px rgb(22 33 39 / 25%);
+    background-color: #1c2130;
+    color: #fff;
   }
 
   @media (max-width: 767px) {
@@ -160,10 +164,10 @@ export const Header = styled.header`
     margin: 7px 27px;
   }
   .menu-item:hover > a {
-    color: #fff !important;
+    color: #028f76 !important;
   }
   .menu-item .sub__menus li:hover a {
-    color: #000 !important;
+    color: #00755c !important;
   }
 
   .header__middle__logo img {
@@ -186,7 +190,7 @@ export const Header = styled.header`
       background-color: #000;
     }
     .main-nav .menu-item:hover > a {
-      color: #333 !important;
+      color: #028f76 !important;
     }
     .main-nav .menubar__button {
       display: block !important;
@@ -209,9 +213,9 @@ export const Header = styled.header`
       position: absolute;
       left: 0;
       z-index: 10007;
-      background-color: #62997a;
+      background-color: #1c2130;
 
-      border-bottom: 3px solid #333;
+      border-bottom: 3px solid #fff;
       right: 0;
       padding-bottom: 17px;
       padding-top: 57px;
@@ -219,7 +223,7 @@ export const Header = styled.header`
     .main-nav .menu-item a {
       margin: 10px 17px;
       text-align: center;
-      color: #333;
+      color: #fff;
     }
     .main-nav ul.main-menu {
       display: none;

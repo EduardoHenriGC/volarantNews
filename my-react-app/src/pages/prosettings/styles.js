@@ -14,7 +14,10 @@ export const Prosetting = styled.div`
     width: 80%;
     margin: 0 auto;
   }
-
+  h2 {
+    color: #d14334;
+    text-transform: uppercase;
+  }
   img {
     width: 600px;
     height: 400px;
@@ -24,7 +27,7 @@ export const Prosetting = styled.div`
     margin-top: 80px;
   }
   .list-content {
-    background-color: #2e4f24;
+    background-color: #00755c;
     height: 400px;
     border: 2px solid #ddd;
   }
@@ -37,7 +40,7 @@ export const Prosetting = styled.div`
   }
   @media (min-width: 0) and (max-width: 676px) {
     ul {
-      width: 100%;
+      width: 80%;
     }
     .list {
       display: block;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DicasCss = styled.div`
   .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 100px;
   }
@@ -15,11 +15,14 @@ export const DicasCss = styled.div`
     justify-content: center;
     margin: 0 auto;
   }
+  h2 {
+    color: red;
+  }
   h3 {
     text-align: center;
     margin: 40px 0;
     font-size: 30px;
-    color: #294821;
+    color: #00755c;
   }
   p {
     font-size: 1.3rem;
@@ -40,7 +43,7 @@ export const DicasCss = styled.div`
     }
     img {
       width: 100%;
-      height: 350px;
+      height: 270px;
     }
     p {
       width: 90%;

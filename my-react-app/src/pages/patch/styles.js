@@ -29,6 +29,9 @@ export const Patchs = styled.div`
     width: 1400px;
     height: 500px;
   }
+  h2 {
+    color: #d14334;
+  }
   .img-content {
     margin: 0 auto;
     width: 1400px;
@@ -37,7 +40,7 @@ export const Patchs = styled.div`
   }
   .patch-section h4 {
     text-align: center;
-    color: #2e4f24;
+    color: #00755c;
     font-weight: 600;
     text-align: center;
     padding-top: 40px;

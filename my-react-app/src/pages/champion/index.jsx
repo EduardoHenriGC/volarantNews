@@ -38,7 +38,7 @@ const Champion = () => {
     <Champ id="champion">
       <hr />
       <section className="info-champ">
-        <h1>VALORANT Champions 2022</h1>
+        <h2>VALORANT Champions 2022</h2>
 
         <h4>data</h4>
         <ul>

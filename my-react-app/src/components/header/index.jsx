@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { FiAlignRight, FiXCircle, FiChevronDown } from "react-icons/fi";
-import { GiAbstract052 } from "react-icons/gi";
+import { FiXCircle, FiChevronDown } from "react-icons/fi";
+import { GiSupersonicArrow, GiHamburgerMenu } from "react-icons/gi";
 
 import { Header } from "./styles";
 
@@ -41,7 +41,7 @@ const Navbarmenu = () => {
             {/* Add Logo  */}
             <div className="header__middle__logo">
               <NavLink exact activeClassName="is-active" to="/">
-                <GiAbstract052 className="icon-menu" />
+                <GiSupersonicArrow className="icon-menu" />
               </NavLink>
             </div>
 
@@ -67,7 +67,7 @@ const Navbarmenu = () => {
                       onClick={toggleClass}
                     >
                       {" "}
-                      <FiAlignRight />{" "}
+                      <GiHamburgerMenu />{" "}
                     </span>
                   </>
                 )}

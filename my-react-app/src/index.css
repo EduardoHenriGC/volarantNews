@@ -8,7 +8,7 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: rgb(225, 233, 226);
+  background-color: #f4f3ee;
 }
 
 img {
@@ -19,3 +19,4 @@ video {
   width: 100%;
   max-height: 100%;
 }
+

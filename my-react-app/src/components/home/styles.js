@@ -7,7 +7,7 @@ export const Heros = styled.div`
       url(${viper});
     background-position: top;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 91px);
     width: 100%;
   }
 `;

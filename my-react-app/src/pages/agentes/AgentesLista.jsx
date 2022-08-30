@@ -4,7 +4,8 @@ export function AgentesLista(props) {
   return (
     <li>
       <h2>{props.agente.nome}</h2>
-      <p>{props.agente.skillq}</p>
+
+      <p className="titulo-skill">{props.agente.skillnameq}</p>
       <iframe
         width="100%"
         height="100%"
@@ -14,7 +15,9 @@ export function AgentesLista(props) {
         allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <p>{props.agente.skille}</p>
+      <p className="texto-alinhamento">{props.agente.skillq}</p>
+
+      <p className="titulo-skill">{props.agente.skillnamee}</p>
       <iframe
         width="100%"
         height="100%"
@@ -24,7 +27,9 @@ export function AgentesLista(props) {
         allow="accelerometer; ; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <p>{props.agente.skillc}</p>
+      <p className="texto-alinhamento">{props.agente.skille}</p>
+
+      <p className="titulo-skill">{props.agente.skillnamec}</p>
       <iframe
         width="100%"
         height="100%"
@@ -34,7 +39,9 @@ export function AgentesLista(props) {
         allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <p>{props.agente.skillx}</p>
+      <p className="texto-alinhamento">{props.agente.skillc}</p>
+
+      <p className="titulo-skill">{props.agente.skillnamex}</p>
       <iframe
         width="100%"
         height="100%"
@@ -44,6 +51,7 @@ export function AgentesLista(props) {
         allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+      <p className="texto-alinhamento">{props.agente.skillx}</p>
     </li>
   );
 }
