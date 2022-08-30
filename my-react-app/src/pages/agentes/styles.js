@@ -35,9 +35,9 @@ export const Agente = styled.div`
     margin-top: 100px;
   }
   .titulo-skill {
-    color: #d14334;
+    color: 000;
     font-weight: 600;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
   }
   .texto-alinhamento {
     padding-bottom: 100px;
@@ -61,10 +61,6 @@ export const Agente = styled.div`
     }
     .texto-alinhamento {
       padding-bottom: 80px;
-    }
-    .titulo-skill {
-      color: #d14334;
-      font-weight: 600;
     }
   }
 `;

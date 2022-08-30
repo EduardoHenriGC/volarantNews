@@ -23,7 +23,7 @@ export const Champ = styled.div`
     color: #d14334;
   }
   h4 {
-    color: #00755c;
+    color: #000;
     text-align: center;
     text-transform: uppercase;
     margin-top: 40px;
@@ -59,7 +59,7 @@ export const Champ = styled.div`
     font-size: 24px;
     margin-top: 5px;
     font-weight: bold;
-    background-color: #2e4f24;
+    background-color: #00755c;
   }
 
   .list-bord a {
@@ -67,7 +67,7 @@ export const Champ = styled.div`
   }
   .titulo-grupo {
     text-align: center;
-    color: #00755c;
+    color: #000;
   }
   @media (min-width: 0) and (max-width: 600px) {
     .nfl {

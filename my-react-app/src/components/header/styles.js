@@ -149,7 +149,7 @@ export const Header = styled.header`
       color: #ff3d00 !important;
     }
     .icon-menu {
-      margin-left: 100px;
+      margin-left: 85px;
     }
   }
 

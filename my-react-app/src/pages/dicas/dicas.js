@@ -22,7 +22,7 @@ export const DicasCss = styled.div`
     text-align: center;
     margin: 40px 0;
     font-size: 30px;
-    color: #00755c;
+    color: #000;
   }
   p {
     font-size: 1.3rem;

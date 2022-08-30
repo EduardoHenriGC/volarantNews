@@ -37,10 +37,11 @@ export const Prosetting = styled.div`
     padding: 20px;
     border: 2px solid #ddd;
     color: #fff;
+    text-transform: uppercase;
   }
   @media (min-width: 0) and (max-width: 676px) {
     ul {
-      width: 80%;
+      width: 60%;
     }
     .list {
       display: block;
