@@ -15,7 +15,8 @@ const footer = () => {
           <TwitterIcon className="lista" />
           <GitHubIcon className="lista" />
           <span>
-            @sem fins empresariais(apenas usando infomações para pratica)
+            @sem fins empresariais(apenas usando infomações para estudo e
+            prática)
           </span>
         </ul>
       </footer>

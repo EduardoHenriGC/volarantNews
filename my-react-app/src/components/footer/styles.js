@@ -18,4 +18,7 @@ export const Footercss = styled.div`
   span {
     font-size: 20px;
   }
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
 `;

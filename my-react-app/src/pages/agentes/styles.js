@@ -37,7 +37,7 @@ export const Agente = styled.div`
   .titulo-skill {
     color: #d14334;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
   }
   .texto-alinhamento {
     padding-bottom: 100px;

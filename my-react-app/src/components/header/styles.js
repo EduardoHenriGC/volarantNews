@@ -13,7 +13,7 @@ export const Header = styled.header`
     text-align: center;
   }
   .icon-menu {
-    margin-top: 30px;
+    margin-top: 32px;
     margin-left: 30px;
     font-size: 30px;
     color: #fff;
@@ -147,6 +147,9 @@ export const Header = styled.header`
   @media (max-width: 767px) {
     .header__middle .active {
       color: #ff3d00 !important;
+    }
+    .icon-menu {
+      margin-left: 100px;
     }
   }
 
