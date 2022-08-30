@@ -51,7 +51,7 @@ export const Agente = styled.div`
       width: 90%;
       margin: 0 auto;
       text-align: center;
-      padding-top: 20px;
+      padding-top: 19px;
     }
     iframe {
       width: 100%;
