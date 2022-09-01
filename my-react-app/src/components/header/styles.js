@@ -192,17 +192,15 @@ export const Header = styled.header`
       max-width: 197px;
       margin: 27px 0 0 0;
     }
-    .main-nav .menubar__button:hover {
-      background-color: #000;
-    }
+
     .main-nav .menu-item:hover > a {
-      color: #028f76 !important;
+      color: #51c211 !important;
     }
     .main-nav .menubar__button {
       display: block !important;
       float: right;
-      background-color: #080808;
-      color: #ddd;
+      background-color: #fff;
+      color: #000;
       padding: 6px 7px;
       border-radius: 5px;
       margin: 27px auto 0;

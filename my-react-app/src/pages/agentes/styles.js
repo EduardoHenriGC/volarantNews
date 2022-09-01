@@ -41,9 +41,12 @@ export const Agente = styled.div`
   }
   .texto-alinhamento {
     padding-bottom: 100px;
+    font-weight: 500;
+    width: 50%;
+    margin: 0 auto;
   }
 
-  @media (min-width: 0) and (max-width: 900px) {
+  @media (min-width: 0) and (max-width: 800px) {
     .container {
       width: 100%;
     }
@@ -61,6 +64,7 @@ export const Agente = styled.div`
     }
     .texto-alinhamento {
       padding-bottom: 80px;
+      width: 95%;
     }
   }
 `;

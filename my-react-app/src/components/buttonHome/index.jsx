@@ -1,24 +1,24 @@
 import React from "react";
 import { HoverMe } from "./styles";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ButtonHome = () => {
   return (
     <HoverMe>
-      <a href="/dicas" to="dicas">
+      <Link to="../dicas">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         dicas
-      </a>
-      <a href="/patch">
+      </Link>
+      <Link to="../patch">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         patch
-      </a>
+      </Link>
     </HoverMe>
   );
 };

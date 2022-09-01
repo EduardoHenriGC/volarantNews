@@ -31,6 +31,8 @@ export const DicasCss = styled.div`
     word-spacing: 2px;
     padding-bottom: 100px;
     padding-top: 40px;
+    width: 57%;
+    margin: 0 auto;
   }
   h2 {
     text-align: center;
