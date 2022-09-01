@@ -14,11 +14,11 @@ const footer = () => {
           <InstagramIcon className="lista" />
           <TwitterIcon className="lista" />
           <GitHubIcon className="lista" />
-          <span>
-            @sem fins empresariais(apenas usando infomações para estudo e
-            prática)
-          </span>
         </ul>
+        <br />
+        <span>
+          @sem fins empresariais(apenas usando infomações para estudo e prática)
+        </span>
       </footer>
     </Footercss>
   );

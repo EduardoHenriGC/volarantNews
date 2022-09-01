@@ -25,7 +25,7 @@ export const HoverMe = styled.div`
     background-color: #03e9f4;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 1px;
+
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
       0 0 200px #03e9f4;
   }

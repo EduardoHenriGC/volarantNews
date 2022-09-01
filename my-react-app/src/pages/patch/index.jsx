@@ -7,7 +7,7 @@ const Patch = () => {
     <Patchs>
       <hr />
       <section className="patch-section" id="path-section">
-        <h2>NOTAS DA ATUALIZAÇÃO 5.03 DO VALORANT</h2>
+        <h2>NOTAS DA ATUALIZAÇÃO 5.03</h2>
 
         <div className="img-container">
           <img

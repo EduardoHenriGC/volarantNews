@@ -6,6 +6,11 @@ export const Agente = styled.div`
     margin: 0 auto;
     margin-top: 100px;
   }
+  .container-slide {
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+  }
   video {
     margin-left: 350px;
 
@@ -15,6 +20,7 @@ export const Agente = styled.div`
   h1 {
     color: #d14334;
     text-transform: uppercase;
+    font-size: 1.6rem;
   }
   li h2 {
     color: #2e4f24;
@@ -45,7 +51,14 @@ export const Agente = styled.div`
     width: 50%;
     margin: 0 auto;
   }
-
+  .img-agente {
+    width: 850px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
   @media (min-width: 0) and (max-width: 800px) {
     .container {
       width: 100%;
@@ -65,6 +78,12 @@ export const Agente = styled.div`
     .texto-alinhamento {
       padding-bottom: 80px;
       width: 95%;
+    }
+    .container-slide {
+      width: 100%;
+      height: 300px;
+      margin: 0 auto;
+      display: block;
     }
   }
 `;

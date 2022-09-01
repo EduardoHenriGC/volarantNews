@@ -36,7 +36,7 @@ export const DicasCss = styled.div`
   }
   h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.6rem;
     text-transform: uppercase;
   }
   @media (min-width: 0) and (max-width: 900px) {

@@ -16,7 +16,7 @@ export const Champ = styled.div`
 
   h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin-top: 60px;
     padding-bottom: 20px;

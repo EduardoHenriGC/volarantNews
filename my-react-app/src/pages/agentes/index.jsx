@@ -29,6 +29,9 @@ const agente = [
     skillnamee: "E – ASSOMBRAR ",
     skillnamec: "C – ESPREITADOR",
     skillnamex: "X – VÉU DA NOITE",
+    slide1: "https://wallpaperaccess.com/full/8293293.jpg",
+    slide2: "https://nitter.net/pic/media%2FFQtHdfQWYAoU-TO.jpg%3Fname%3Dsmall",
+    slide3: "https://images8.alphacoders.com/123/1237504.jpg",
   },
 
   {
@@ -54,6 +57,9 @@ const agente = [
     skillnamee: "E: PASSAGEM DIMENSIONAL",
     skillnamec: "C: FALCATRUA",
     skillnamex: "X: ESPIONAGEM DIMENSIONAL",
+    slide1: "https://images4.alphacoders.com/121/1218751.jpg",
+    slide2: "https://i.ytimg.com/vi/V2Qm-IPSQ74/maxresdefault.jpg",
+    slide3: "https://images3.alphacoders.com/123/1237508.jpg",
   },
 
   {
@@ -79,6 +85,10 @@ const agente = [
     skillnamee: "E - TORRETA",
     skillnamec: "C - NANOENXAME",
     skillnamex: "X - CONFINAMENTO",
+    slide1:
+      "https://s2.glbimg.com/e3BdtFIEle0tjDSN_YaIiMauYTM=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/O/E/jLyZmwR12AB6BNFkVYJw/maxresdefault.jpg",
+    slide2: "https://images8.alphacoders.com/114/thumb-1920-1149389.jpg",
+    slide3: "https://images5.alphacoders.com/114/1149372.png",
   },
 ];
 

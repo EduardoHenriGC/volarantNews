@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "json-server": "^0.17.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^2.5.0",
     "styled-components": "^5.3.5"
   }
 }

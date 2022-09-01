@@ -17,6 +17,7 @@ export const Prosetting = styled.div`
   h2 {
     color: #d14334;
     text-transform: uppercase;
+    font-size: 1.6rem;
   }
   img {
     width: 600px;

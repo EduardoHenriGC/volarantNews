@@ -11,7 +11,7 @@ export const Patchs = styled.div`
     text-align: center;
     padding-top: 100px;
     margin-bottom: 100px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #d14334;
   }
