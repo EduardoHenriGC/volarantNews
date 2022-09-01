@@ -167,10 +167,10 @@ export const Header = styled.header`
     margin: 7px 27px;
   }
   .menu-item:hover > a {
-    border-bottom: 2px solid #00755c;
+    border-bottom: 2px solid #51c211;
   }
   .menu-item .sub__menus li:hover a {
-    color: #00755c !important;
+    color: #51c211 !important;
   }
 
   .header__middle__logo img {
