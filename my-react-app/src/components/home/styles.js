@@ -11,7 +11,7 @@ export const Heros = styled.div`
     height: calc(100vh - 91px);
     width: 100%;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     .hero {
       background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
         url(${jett});

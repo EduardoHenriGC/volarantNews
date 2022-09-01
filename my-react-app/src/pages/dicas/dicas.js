@@ -37,7 +37,7 @@ export const DicasCss = styled.div`
     font-size: 30px;
     text-transform: uppercase;
   }
-  @media (min-width: 0) and (max-width: 600px) {
+  @media (min-width: 0) and (max-width: 900px) {
     .container {
       width: 100%;
     }

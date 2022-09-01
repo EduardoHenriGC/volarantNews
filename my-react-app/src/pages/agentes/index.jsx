@@ -53,7 +53,7 @@ const agente = [
     skillnameq: "Q: PONTO CEGO ",
     skillnamee: "E: PASSAGEM DIMENSIONAL",
     skillnamec: "C: FALCATRUA",
-    skillnamex: "ESPIONAGEM DIMENSIONAL",
+    skillnamex: "X: ESPIONAGEM DIMENSIONAL",
   },
 
   {

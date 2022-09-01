@@ -9,10 +9,11 @@ export const Patchs = styled.div`
 
   .patch-section h2 {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     margin-bottom: 100px;
-    font-size: 28px;
+    font-size: 1.6rem;
     font-weight: 600;
+    color: #d14334;
   }
   .texto {
     width: 90%;
@@ -29,8 +30,11 @@ export const Patchs = styled.div`
     width: 1400px;
     height: 500px;
   }
-  h2 {
-    color: #d14334;
+  h3 {
+    color: #000;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 100px;
   }
   .img-content {
     margin: 0 auto;
@@ -38,17 +42,22 @@ export const Patchs = styled.div`
 
     margin-top: 50px;
   }
+
   .patch-section h4 {
-    text-align: center;
     color: #00755c;
     font-weight: 600;
-    text-align: center;
+
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  @media (min-width: 0) and (max-width: 600px) {
+  @media (min-width: 0) and (max-width: 900px) {
     .patch-section {
       width: 100%;
+    }
+    .patch-section h2 {
+      margin-top: 100px;
+      padding: 0;
+      font-size: 22px;
     }
     .img-container {
       width: 100%;
@@ -62,6 +71,12 @@ export const Patchs = styled.div`
     p {
       text-align: center;
       padding-top: 30px;
+    }
+    .patch-section h4 {
+      text-align: center;
+    }
+    h3 {
+      padding-top: 0;
     }
   }
 `;

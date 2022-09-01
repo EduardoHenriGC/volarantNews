@@ -69,7 +69,7 @@ export const Champ = styled.div`
     text-align: center;
     color: #000;
   }
-  @media (min-width: 0) and (max-width: 600px) {
+  @media (min-width: 0) and (max-width: 900px) {
     .nfl {
       flex-direction: column;
       width: 100%;

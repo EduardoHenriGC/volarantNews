@@ -167,7 +167,7 @@ export const Header = styled.header`
     margin: 7px 27px;
   }
   .menu-item:hover > a {
-    color: #028f76 !important;
+    border-bottom: 2px solid #00755c;
   }
   .menu-item .sub__menus li:hover a {
     color: #00755c !important;
@@ -181,6 +181,9 @@ export const Header = styled.header`
   @media (max-width: 991px) {
     .header__middle__logo {
       width: 77%;
+    }
+    .menu-item:hover > a {
+      border-bottom: none;
     }
     .header__middle__menus {
       width: 20%;

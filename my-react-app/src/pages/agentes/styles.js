@@ -6,7 +6,7 @@ export const Agente = styled.div`
     margin: 0 auto;
     margin-top: 100px;
   }
-  iframe {
+  video {
     margin-left: 350px;
 
     width: 800px;
@@ -43,7 +43,7 @@ export const Agente = styled.div`
     padding-bottom: 100px;
   }
 
-  @media (min-width: 0) and (max-width: 600px) {
+  @media (min-width: 0) and (max-width: 900px) {
     .container {
       width: 100%;
     }
@@ -53,7 +53,7 @@ export const Agente = styled.div`
       text-align: center;
       padding-top: 19px;
     }
-    iframe {
+    video {
       width: 100%;
       height: 350px;
       margin: 0;

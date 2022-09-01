@@ -15,7 +15,7 @@ const Patch = () => {
             alt="patch note"
           />
         </div>
-        <h2>ATUALIZAÇÕES GERAIS</h2>
+        <h3>ATUALIZAÇÕES GERAIS</h3>
 
         <div className="texto">
           <p>-Atualização de motor gráfico para Unreal Engine 4.26</p>
@@ -47,7 +47,7 @@ const Patch = () => {
         <br />
         <br />
         <br />
-        <h2>ATUALIZAÇÕES DOS AGENTES</h2>
+        <h3>ATUALIZAÇÕES DOS AGENTES</h3>
         <div className="img-content">
           <img
             src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt586b54294bf28bf1/617c95ffe9faf110630332f4/chamber.jpg"
