@@ -4,6 +4,7 @@ export const Agente = styled.div`
   .container {
     width: 80%;
     margin: 0 auto;
+
     margin-top: 100px;
   }
   .container-slide {
@@ -12,7 +13,10 @@ export const Agente = styled.div`
     margin: 0 auto;
   }
   video {
-    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
 
     width: 800px;
     height: 450px;
@@ -40,8 +44,13 @@ export const Agente = styled.div`
     text-align: center;
     margin-top: 100px;
   }
+  h4 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
   .titulo-skill {
-    color: 000;
     font-weight: 600;
     padding-bottom: 15px;
   }
@@ -73,7 +82,6 @@ export const Agente = styled.div`
       width: 100%;
       height: 350px;
       margin: 0;
-      padding-top: 20px;
     }
     .texto-alinhamento {
       padding-bottom: 80px;
@@ -84,6 +92,10 @@ export const Agente = styled.div`
       height: 300px;
       margin: 0 auto;
       display: block;
+    }
+    .titulo-skill {
+      padding: 0;
+      margin: 0;
     }
   }
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Patchs = styled.div`
   .patch-section {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 100px;
   }
@@ -27,7 +27,7 @@ export const Patchs = styled.div`
   }
   .img-container {
     margin: 0 auto;
-    width: 1400px;
+    width: 100%;
     height: 500px;
   }
   h3 {
@@ -35,12 +35,11 @@ export const Patchs = styled.div`
     text-align: center;
     font-size: 1.4rem;
     padding-top: 100px;
+    padding-bottom: 30px;
   }
   .img-content {
     margin: 0 auto;
-    width: 1400px;
-
-    margin-top: 50px;
+    width: 100%;
   }
 
   .patch-section h4 {
@@ -61,6 +60,7 @@ export const Patchs = styled.div`
     }
     .img-container {
       width: 100%;
+      height: 270px;
     }
     .img-content {
       width: 100%;
@@ -76,7 +76,7 @@ export const Patchs = styled.div`
       text-align: center;
     }
     h3 {
-      padding-top: 0;
+      padding-bottom: 10px;
     }
   }
 `;

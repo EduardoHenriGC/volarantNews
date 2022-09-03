@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 export const Champ = styled.div`
   .nfl {
-    width: 70%;
+    width: 60%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
   }
   .container {
@@ -12,6 +16,18 @@ export const Champ = styled.div`
     margin: 5px;
     display: flex;
     flex-direction: column;
+  }
+  .grupo-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 45px;
+    height: 40px;
+
+    float: left;
   }
 
   h2 {
@@ -34,6 +50,8 @@ export const Champ = styled.div`
   .ul-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
     display: flex;
     justify-content: center;
   }
@@ -53,21 +71,27 @@ export const Champ = styled.div`
   .list-bord {
     border: 3px solid #aaa;
     width: 350px;
-    text-align: center;
+
     margin: 0 auto;
-    padding: 14px;
-    font-size: 24px;
-    margin-top: 5px;
+
+    font-size: 20px;
+    padding: 15px;
+
     font-weight: bold;
     background-color: #00755c;
   }
 
-  .list-bord a {
+  .list-bord span {
     color: #fff;
+    text-align: center;
   }
   .titulo-grupo {
     text-align: center;
     color: #000;
+  }
+  span {
+    text-align: center;
+    margin: 0 auto;
   }
   @media (min-width: 0) and (max-width: 900px) {
     .nfl {

@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const DicasCss = styled.div`
   .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
   }
 
   img {
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 450px;
     display: flex;
+    align-items: center;
 
     justify-content: center;
     margin: 0 auto;
@@ -31,8 +32,9 @@ export const DicasCss = styled.div`
     word-spacing: 2px;
     padding-bottom: 100px;
     padding-top: 40px;
-    width: 57%;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
   }
   h2 {
     text-align: center;

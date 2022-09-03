@@ -16,7 +16,7 @@ export const HoverMe = styled.div`
     -webkit-box-reflect: below 0.3px linear-gradient(transparent, #0005);
   }
   a:nth-child(1) {
-    filter: hue-rotate(280deg);
+    filter: hue-rotate(80deg);
   }
   a:nth-child(2) {
     filter: hue-rotate(40deg);

@@ -15,7 +15,7 @@ export function AgentesLista(props) {
       <br />
       <br />
       );
-      <p className="titulo-skill">{props.agente.skillnameq}</p>
+      <h4 className="titulo-skill">{props.agente.skillnameq}</h4>
       <video
         width="100%"
         height="100%"
@@ -24,7 +24,7 @@ export function AgentesLista(props) {
         autoplay
       ></video>
       <p className="texto-alinhamento">{props.agente.skillq}</p>
-      <p className="titulo-skill">{props.agente.skillnamee}</p>
+      <h4 className="titulo-skill">{props.agente.skillnamee}</h4>
       <video
         width="100%"
         height="100%"
@@ -33,7 +33,7 @@ export function AgentesLista(props) {
         autoplay
       ></video>
       <p className="texto-alinhamento">{props.agente.skille}</p>
-      <p className="titulo-skill">{props.agente.skillnamec}</p>
+      <h4 className="titulo-skill">{props.agente.skillnamec}</h4>
       <video
         width="100%"
         height="100%"
@@ -42,7 +42,7 @@ export function AgentesLista(props) {
         autoplay
       ></video>
       <p className="texto-alinhamento">{props.agente.skillc}</p>
-      <p className="titulo-skill">{props.agente.skillnamex}</p>
+      <h4 className="titulo-skill">{props.agente.skillnamex}</h4>
       <video
         width="100%"
         height="100%"

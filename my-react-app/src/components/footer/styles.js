@@ -7,6 +7,7 @@ export const Footercss = styled.div`
 
   ul {
     display: flex;
+    flex-direction: row;
 
     align-items: center;
     justify-content: center;
