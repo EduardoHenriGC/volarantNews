@@ -9,14 +9,14 @@ const footer = () => {
   return (
     <Footercss>
       <footer>
-        <ul>
+        <ul className="lista-footer">
           <FacebookIcon className="lista" />
           <InstagramIcon className="lista" />
           <TwitterIcon className="lista" />
           <GitHubIcon className="lista" />
         </ul>
         <br />
-        <span>
+        <span className="footer-span">
           @sem fins empresariais(apenas usando infomações para estudo e prática)
         </span>
       </footer>

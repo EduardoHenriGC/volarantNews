@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
 export const Footercss = styled.div`
-  background-color: #333;
-  padding: 10px;
-  margin-top: 150px;
-
-  ul {
+  footer {
+    background-color: #333;
+    padding: 10px;
+    margin-top: 150px;
+  }
+  .lista-footer {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: center;
     color: #fff;
     height: 100px;
   }
-  span {
+  .footer-span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,11 +24,13 @@ export const Footercss = styled.div`
   .lista {
     margin: 4px;
   }
-  span {
+  .footer-span {
     font-size: 20px;
     margin-bottom: 50px;
   }
   @media (max-width: 768px) {
-    margin-top: 30px;
+    footer {
+      margin-top: 30px;
+    }
   }
 `;
